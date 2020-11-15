@@ -13,6 +13,14 @@
   margin: 3px;
 }
 
+#leftDivision {
+  padding-left: 200px;
+}
+
+#rightDivision {
+  padding-right: 100px;
+}
+
 #jobChoose {
   background-color: black;
   background-size: cover;
