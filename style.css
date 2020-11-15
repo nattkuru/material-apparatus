@@ -7,6 +7,7 @@
   display: inline;
 }
 
+
 .job img {
   width: 30px;
   height: 30px;
@@ -16,7 +17,7 @@
 #jobChoose {
   background-color: black;
   background-size: cover;
-  width: 22%;
+  width: 50%;
   height: 80px;
   background-color:rgba(0,0,0,0.5);
 }
@@ -24,8 +25,8 @@
 #level {
   background-color: black;
   background-size: cover;
-  width: 28%;
-  height: 50px;
+  width: 50%;
+  height: 10%;
   font-weight: bold;
   background-color:rgba(0,0,0,0.5);
   color: aliceblue;
@@ -43,12 +44,12 @@
   background-color: black;
   background-size: cover;
   width: 25%;
-  height: 80%;
+  height: 70%;
   font-size: 160%;
   font-weight: bold;
   position: absolute;
   left: 70%;
-  bottom: 15%;
+  bottom: 20%;
   background-color:rgba(0,0,0,0.5);
   color: aliceblue;
 }
@@ -59,7 +60,7 @@
   background-color: black;
   background-size: cover;
   width: 30%;
-  height: 400px;
+  height: 500px;
   font-weight: bold;
   font-size: 160%;
   background-color:rgba(0,0,0,0.5);
