@@ -21,57 +21,61 @@
 
   <!----- main ----->
   <div id="main">
-    <div id = "level">
-      <input type="checkbox"/>レベル1~10
-      <input type="checkbox"/>レベル11~20
-      <input type="checkbox" />レベル21~30
-      <input type="checkbox" />レベル31~40
-      <br>
-      <input type="checkbox" />レベル41~50
-      <input type="checkbox" />レベル51~60
-      <input type="checkbox" />レベル61~70
-      <input type="checkbox" />レベル71~80
-    </div>
-    <div id = "typeChoose">
-      <select name="example">
-        <option value="ハウジング">ハウジング</option>
-        <option value="武器">武器</option>
-        <option value="防具">防具</option>
-      </select>
-    </div>
-    <div id = "jobChoose">
-      <ul style="list-style: none;" class="job">
-        <li><img src="img/ナイト.png" title="ナイト"></li>
-        <li><img src="img/戦士.png" title="戦士"></li>
-        <li><img src="img/暗黒.png" title="暗黒"></li>
-        <li><img src="img/ガンブレ.png" title="ガンブレ"></li>
-        <li><img src="img/白魔.png" title="白魔"></li>
-        <li><img src="img/学者.png" title="学者"></li>
-        <li><img src="img/占星.png" title="占星"></li>
+    <div id="leftDivision">
+      <div id = "level">
+        <input type="checkbox"/>レベル1~10
+        <input type="checkbox"/>レベル11~20
+        <input type="checkbox" />レベル21~30
+        <input type="checkbox" />レベル31~40
         <br>
-        <li><img src="img/モンク.png" title="モンク"></li>
-        <li><img src="img/竜騎士.png" title="竜騎士"></li>
-        <li><img src="img/忍者.png" title="忍者"></li>
-        <li><img src="img/侍.png" title="侍"></li>
-        <li><img src="img/詩人.png" title="詩人"></li>
-        <li><img src="img/機工.png" title="機工"></li>
-        <li><img src="img/踊り子.png" title="踊り子"></li>
-        <li><img src="img/黒魔.png" title="黒魔"></li>
-        <li><img src="img/召喚.png" title="召喚"></li>
-      </ul>
+        <input type="checkbox" />レベル41~50
+        <input type="checkbox" />レベル51~60
+        <input type="checkbox" />レベル61~70
+        <input type="checkbox" />レベル71~80
+      </div>
+      <div id = "typeChoose">
+        <select name="example">
+          <option value="ハウジング">ハウジング</option>
+          <option value="武器">武器</option>
+          <option value="防具">防具</option>
+        </select>
+      </div>
+      <div id = "jobChoose">
+        <ul style="list-style: none;" class="job">
+          <li><img src="img/ナイト.png" title="ナイト"></li>
+          <li><img src="img/戦士.png" title="戦士"></li>
+          <li><img src="img/暗黒.png" title="暗黒"></li>
+          <li><img src="img/ガンブレ.png" title="ガンブレ"></li>
+          <li><img src="img/白魔.png" title="白魔"></li>
+          <li><img src="img/学者.png" title="学者"></li>
+          <li><img src="img/占星.png" title="占星"></li>
+          <br>
+          <li><img src="img/モンク.png" title="モンク"></li>
+          <li><img src="img/竜騎士.png" title="竜騎士"></li>
+          <li><img src="img/忍者.png" title="忍者"></li>
+          <li><img src="img/侍.png" title="侍"></li>
+          <li><img src="img/詩人.png" title="詩人"></li>
+          <li><img src="img/機工.png" title="機工"></li>
+          <li><img src="img/踊り子.png" title="踊り子"></li>
+          <li><img src="img/黒魔.png" title="黒魔"></li>
+          <li><img src="img/召喚.png" title="召喚"></li>
+        </ul>
+      </div>
+      <div id = "search">
+        <form action="cgi-bin/example.cgi" method="post">
+        <p>装備・ハウジングの直接検索</p>
+        <input type="search" name="search">
+        <input type="submit" name="submit" value="検索">
+        </form>
+      </div>
+      <div id="recipe">
+        <p>必要素材</p>
+      </div>
     </div>
-    <div id = "search">
-      <form action="cgi-bin/example.cgi" method="post">
-      <p>装備・ハウジングの直接検索</p>
-      <input type="search" name="search">
-      <input type="submit" name="submit" value="検索">
-      </form>
-    </div>
-    <div id = "result">
-      <p>検索結果</p>
-    </div>
-    <div id="recipe">
-      <p>必要素材</p>
+    <div id="rightDivision">
+      <div id = "result">
+        <p>検索結果</p>
+      </div>
     </div>
   </div>
   <!----- /main ----->
