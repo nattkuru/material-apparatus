@@ -52,8 +52,8 @@
 #search{
   color: aliceblue;
   width: 30%;
-  margin-top: 10px;
-  margin-left: 250px;
+  margin-top: -20px;
+  margin-left: 230px;
 }
 
 #result{
@@ -105,10 +105,17 @@
   position: relative;
   top: -30px;
   font-size: 150%;
+  left: 30%;
 }
 
 #recipe p{
   position: relative;
   left: 35%;
   font-size: 150%;
+}
+
+#typeChoose{
+  position: relative;
+  top: 25px;
+  left: 40px;
 }

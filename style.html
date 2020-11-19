@@ -36,6 +36,13 @@
           <option value="防具">防具</option>
         </select>
       </div>
+      <div id="search">
+        <form action="cgi-bin/example.cgi" method="post">
+          <p>装備・ハウジングの直接検索</p>
+          <input type="search" name="search">
+          <input type="submit" name="submit" value="検索">
+        </form>
+      </div>
       <div id = "jobChoose">
         <ul style="list-style: none;" class="job">
           <li><img src="img/ナイト.png" title="ナイト"></li>
@@ -55,13 +62,6 @@
           <li><img src="img/黒魔.png" title="黒魔"></li>
           <li><img src="img/召喚.png" title="召喚"></li>
         </ul>
-      </div>
-      <div id = "search">
-        <form action="cgi-bin/example.cgi" method="post">
-        <p>装備・ハウジングの直接検索</p>
-        <input type="search" name="search">
-        <input type="submit" name="submit" value="検索">
-        </form>
       </div>
       <div id="quantity">
         <select name="example">
