@@ -119,3 +119,11 @@
   top: 25px;
   left: 40px;
 }
+
+p {
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
