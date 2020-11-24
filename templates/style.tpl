@@ -23,6 +23,7 @@
   <!----- main ----->
   <div id="main">
     <div id="leftDivision">
+      {$food}
       <!--
       <div id = "level">
         <input type="checkbox"/>レベル1~30
