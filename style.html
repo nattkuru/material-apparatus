@@ -15,13 +15,15 @@
 <body>
   <!----- header----->
   <div id="header">
-    <p>Ryuさんの素材検索装置</p>
+    <p>材料検索装置
+    </p>
   </div>
   <!----- /header ----->
 
   <!----- main ----->
   <div id="main">
     <div id="leftDivision">
+      <!--
       <div id = "level">
         <input type="checkbox"/>レベル1~30
         <input type="checkbox"/>レベル31~50
@@ -29,20 +31,15 @@
         <input type="checkbox" />レベル61~70
         <input type="checkbox" />レベル71~80
       </div>
+      !-->
       <div id = "typeChoose">
         <select name="example">
           <option value="ハウジング">ハウジング</option>
-          <option value="武器">武器</option>
-          <option value="防具">防具</option>
+          <option value="飛空艇">飛空艇</option>
+          <option value="潜水艦">潜水艦</option>
         </select>
       </div>
-      <div id="search">
-        <form action="cgi-bin/example.cgi" method="post">
-          <p>装備・ハウジングの直接検索</p>
-          <input type="search" name="search">
-          <input type="submit" name="submit" value="検索">
-        </form>
-      </div>
+      <!--
       <div id = "jobChoose">
         <ul style="list-style: none;" class="job">
           <li><img src="img/ナイト.png" title="ナイト"></li>
@@ -63,6 +60,7 @@
           <li><img src="img/召喚.png" title="召喚"></li>
         </ul>
       </div>
+      !-->
       <div id="quantity">
         <select name="example">
           <option value="個数選択">個数選択</option>

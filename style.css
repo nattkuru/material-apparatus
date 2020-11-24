@@ -1,3 +1,4 @@
+/*
 .job li {
   display: inline;
 }
@@ -7,7 +8,7 @@
   height: 30px;
   margin: 3px;
 }
-
+*/
 #leftDivision {
   padding-left: 200px;
   margin-left: 5%;
@@ -17,7 +18,7 @@
   padding-right: 200px;
   margin-right: 10%;
 }
-
+/*
 #jobChoose {
   background-color: black;
   width: 30%;
@@ -35,7 +36,7 @@
   color: aliceblue;
   margin-bottom: 15px;
 }
-
+*/
 #footer {
   font-size: 50%;
   width: 100%;
@@ -45,52 +46,42 @@
   color: aliceblue;
 }
 
-#search p{
-  margin: 1px 0px;
-}
-
-#search{
-  color: aliceblue;
-  width: 30%;
-  margin-top: -20px;
-  margin-left: 230px;
-}
-
 #result{
-  background-color: black;
-  background-size: cover;
-  width: 20%;
-  height: 70%;
   font-size: 160%;
   font-weight: bold;
-  position: absolute;
-  left: 70%;
-  bottom: 20%;
   background-color:rgba(0,0,0,0.5);
   color: aliceblue;
+  position: relative;
+  left: 70%;
+  bottom: 400px;
+  height: 500px;
+  width: 50%;
+  margin: 15px;
 }
 
 #quantity{
   position: relative;
-  left: 43%;
-  top: 40px;
+  left: 23%;
+  top: 150px;
 }
 
 #recipe{
-  background-color: black;
-  background-size: cover;
-  width: 40vw;
-  height: 500px;
   font-weight: bold;
   font-size: 160%;
   background-color:rgba(0,0,0,0.5);
   color: aliceblue;
+  position: relative;
+  right: 10%;
+  height: 500px;
+  width: 40%;
+  bottom: -150px;
 }
 
 #main{
   background-image: url(img/背景.png);
   background-size: cover;
   background-position: center;
+  height: 1000px;
 }
 
 #header{
@@ -103,9 +94,9 @@
 
 #result p{
   position: relative;
-  top: -30px;
+  top: -5px;
   font-size: 150%;
-  left: 30%;
+  left: 35%;
 }
 
 #recipe p{
@@ -116,8 +107,8 @@
 
 #typeChoose{
   position: relative;
-  top: 25px;
-  left: 40px;
+  top: 175px;
+  right: 10%;
 }
 
 p {
