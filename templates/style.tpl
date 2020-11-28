@@ -15,15 +15,13 @@
 <body>
   <!----- header----->
   <div id="header">
-    <p>材料検索装置
-    </p>
+    <p>材料検索装置</p>
   </div>
   <!----- /header ----->
 
   <!----- main ----->
   <div id="main">
     <div id="leftDivision">
-      {$food}
       <!--
       <div id = "level">
         <input type="checkbox"/>レベル1~30
