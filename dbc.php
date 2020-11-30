@@ -7,7 +7,7 @@ $pass = 'i6vakirb7fic8543';
 
 
 try{
-    $bdh = new PDO($dsn, $user, $pass,
+    $dbh = new PDO($dsn, $user, $pass,
     [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     ] ) ;
     echo'接続成功';
