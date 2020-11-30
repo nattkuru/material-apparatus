@@ -1,6 +1,5 @@
 <?php
 ini_set('display_errors', 1);
-echo test == 1;
 $dsn = 'mysql:dbname=q9jovleh3442yuxk;
 host=i943okdfa47xqzpy.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;charset=utf8';
 $user = 'vtv47qw6y2tti1hf';
