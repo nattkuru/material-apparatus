@@ -10,7 +10,6 @@ try{
     [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     ]);
     echo'接続成功';
-    $dbh =null;
     $sql = 'SELECT * FROM house';
 $prepare = $dbh->prepare($sql);
 //$prepare->bindValue(':id', 3, PDO::PARAM_INT);
