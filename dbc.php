@@ -11,6 +11,13 @@ try{
     ]);
     echo'接続成功';
     $dbh =null;
+    $sql = 'SELECT * FROM house';
+$prepare = $dbh->prepare($sql);
+//$prepare->bindValue(':id', 3, PDO::PARAM_INT);
+$prepare->execute();
+$result = $prepare->fetchAll(PDO::FETCH_ASSOC);
+
+var_dump($result);
 } catch(PDDException $e){
     echo '接続失敗'. $e->getMessage();
     exit();
