@@ -11,7 +11,7 @@ try{
     ]);
     echo'接続成功';
     $dbh =null;
-} chtch(PDDException $e){
+} catch(PDDException $e){
     echo '接続失敗'. $e->getMessage();
     exit();
   };
