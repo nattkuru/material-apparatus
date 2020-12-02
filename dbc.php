@@ -10,13 +10,12 @@ try{
     $dbh = new PDO($dsn, $user, $pass,
     [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     ] ) ;
-    echo'接続成功';
     $sql = 'SELECT name FROM house';
 $stmt = $dbh->prepare($sql);
 //$stmt->bindValue(':id', 3, PDO::PARAM_INT);
 $stmt->execute();
 $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
+$dbh = null;
 var_dump ($result);
 } catch(PDDException $e){
     echo '接続失敗'. $e->getMessage();
