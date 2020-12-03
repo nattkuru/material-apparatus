@@ -82,7 +82,7 @@
       <div id = "result">
         <p>検索結果</p>
           {foreach $housenameList as $housename}
-            {$housename["name"]}<br>
+            <a href="index.php?itemId={$housename["id"]}">{$housename["name"]}</a><br>
           {/foreach}
       </div>
     </div>

@@ -8,7 +8,7 @@ function getHousename(){
 
     try{
         $dbh = new PDO($dsn, $user, $pass,[PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,]);
-        $sql = 'SELECT name FROM house';
+        $sql = 'SELECT id,name FROM house';
         $stmt = $dbh->prepare($sql);
         //$stmt->bindValue(':id', 3, PDO::PARAM_INT);
         $stmt->execute();
