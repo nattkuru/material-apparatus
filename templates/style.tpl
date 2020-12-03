@@ -82,7 +82,7 @@
       <div id = "result">
         <p>検索結果</p>
           {foreach $housenameList as $housename}
-            {$housename}<br>
+            {$housename["name"]}<br>
           {/foreach}
       </div>
     </div>
