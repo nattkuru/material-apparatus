@@ -14,6 +14,7 @@ function getHousename(){
         $stmt->execute();
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
         $dbh = null;
+        return $result;
     } catch(PDDException $e){
             echo '接続失敗'. $e->getMessage();
         exit();
