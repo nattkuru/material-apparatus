@@ -81,6 +81,7 @@
     <div id="rightDivision">
       <div id = "result">
         <p>検索結果</p>
+        {$housename}
       </div>
     </div>
   </div>
