@@ -76,6 +76,7 @@
       </div>
       <div id="recipe">
         <p>必要素材</p>
+        {$searchresult}
       </div>
     </div>
     <div id="rightDivision">
