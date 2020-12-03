@@ -81,7 +81,9 @@
     <div id="rightDivision">
       <div id = "result">
         <p>検索結果</p>
-        {$housename}
+          {foreach $housenameList as $housename}
+            {$housename}<br>
+          {/foreach}
       </div>
     </div>
   </div>

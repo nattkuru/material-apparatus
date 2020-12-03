@@ -5,5 +5,5 @@ $smarty = new Smarty();
 $smarty->setTemplateDir('templates/templates')->setCacheDir('templates/cache')->setCompileDir('templates/templates_c')->setCacheDir('templates/cache')->setConfigDir('templates/configs');
 
 $housename = getHousename();
-$smarty->assign('housename',$housename);
+$smarty->assign('housenameList',$housename);
 $smarty->display('templates/style.tpl');
