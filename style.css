@@ -57,7 +57,7 @@
   height: 500px;
   width: 50%;
   margin: 15px;
-  overflow-y: visible;
+  overflow-y: scroll;
 }
 
 #quantity{
@@ -76,7 +76,7 @@
   height: 500px;
   width: 40%;
   bottom: -150px;
-  overflow-y: visible;
+  overflow-y: scroll;
 }
 
 #main{
